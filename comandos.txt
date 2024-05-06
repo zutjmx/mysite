@@ -9,3 +9,15 @@ py manage.py runserver 8080
 
 -- Para IP pública en el puerto 8000:
 py manage.py runserver 0.0.0.0:8000
+
+-- Para aplicar migraciones iniciales:
+py manage.py migrate
+
+-- Para generar migraciones de los modelos en la app polls
+py manage.py makemigrations polls
+
+-- Para mostrar el script de las tablas de la app polls:
+py manage.py sqlmigrate polls 0001
+
+-- Se aplica la migración: 
+py manage.py migrate
