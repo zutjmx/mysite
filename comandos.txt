@@ -1,0 +1,11 @@
+-- Para crear un nuevo proyecto:
+python -m django startproject mysite
+
+-- Para ejecutar servidor por default en el puerto 8000:
+py manage.py runserver
+
+-- Para especificar el puerto en donde se ejecuta:
+py manage.py runserver 8080
+
+-- Para IP pública en el puerto 8000:
+py manage.py runserver 0.0.0.0:8000
